@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/policydialog.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/policydialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/card_drug.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/card_drug.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pharmacist_dashboard.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_dashboard.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/user_signin.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signin.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/dashboard_user.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/dashboard_user.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/profileviewpharmacist.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profileviewpharmacist.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/shareimage.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/shareimage.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/bottompanel.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/bottompanel.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/step_counter.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/step_counter.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/user_signup.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signup.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pharmacistsignupsupport.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacistsignupsupport.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/map_page.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/map_page.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/drug_details.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/drug_details.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/profilephotodialog.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profilephotodialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/drugmap.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/drugmap.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pharmaceutical_item.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmaceutical_item.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/edit_pharmaceutical_dialog.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/edit_pharmaceutical_dialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/viewpharmaceuticals.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/viewpharmaceuticals.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/profileviewuser.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profileviewuser.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/saved_drugs.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/saved_drugs.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pharmacist_signin.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_signin.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pil_tracker.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pil_tracker.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/pharmacist_signup.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_signup.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/addpharmaceuticals.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/addpharmaceuticals.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/importantnumbers.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/importantnumbers.xml"
+    }
+]

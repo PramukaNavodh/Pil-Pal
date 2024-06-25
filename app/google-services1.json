@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "179398885997",
+    "project_id": "pil-pal-alt",
+    "storage_bucket": "pil-pal-alt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179398885997:android:d52acfd417e35be6d3f564",
+        "android_client_info": {
+          "package_name": "com.s22010189.pilpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179398885997-pfbq83p1tsjd1rt729ulrjlnu3sn4dnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s22010189.pilpal",
+            "certificate_hash": "b3c91d3febcce18d02de591d9813e94dc8a02ed2"
+          }
+        },
+        {
+          "client_id": "179398885997-tbi2nqc7i3bmbbq6spgljsh5tlp9vt3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5mLDOAMigH4gly3hl1EsXODl3Zu-ft4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179398885997-tbi2nqc7i3bmbbq6spgljsh5tlp9vt3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

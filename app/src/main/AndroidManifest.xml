@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logi"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PilPal"
+        tools:targetApi="31">
+        <activity
+            android:name=".ImportantNumbers"
+            android:exported="false"
+            android:screenOrientation="portrait" />/>
+        <activity
+            android:name=".ProfileViewPharmacist"
+            android:exported="false"
+            android:screenOrientation="portrait" />/>
+        <activity
+            android:name=".ProfileViewUser"
+            android:exported="false"
+            android:screenOrientation="portrait" />/>
+        <activity
+            android:name=".ShareImage"
+            android:exported="false"
+            android:screenOrientation="portrait" />/>
+        <activity
+            android:name=".DrugMap"
+            android:exported="false"
+            android:screenOrientation="portrait" />/>
+        <activity
+            android:name=".ViewPharmaceuticals"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddPharmaceuticals"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PharmacistSignUpSupport"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SavedDrugs"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DrugDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StepCounter"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PilTracker"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardPharmacist"
+            android:exported="false" />
+        <activity
+            android:name=".MapPage"
+            android:exported="false" />
+        <activity
+            android:name=".PharmacistSignIn"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardUser"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".UserSignUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".data.Siginface"
+            android:exported="false" />
+        <activity
+            android:name=".data.Login"
+            android:exported="false" />
+        <activity
+            android:name=".data.Loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".PharmacistSignUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserSignIn"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/my_api_key" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.s22010189.pil_pal.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <receiver android:name=".NotificationReceiver" android:exported="false" />
+
+    </application>
+
+</manifest>

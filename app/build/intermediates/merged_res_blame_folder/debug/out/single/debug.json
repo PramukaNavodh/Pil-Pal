@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_jogging.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/jogging.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitosemibold.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitosemibold.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimagec.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimagec.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pharmacistsignupsupport.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacistsignupsupport.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_call.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/call.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_user_signup.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signup.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_search.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/search.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_progress_bar_drawable.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/progress_bar_drawable.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_stocks.jpeg.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/stocks.jpeg"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_bottompanel.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/bottompanel.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_jog.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/jog.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimageb.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimageb.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_importantnumbers.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/importantnumbers.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_buttonshaper.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/buttonshaper.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_drugmap.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/drugmap.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_drug_details.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/drug_details.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_logi.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/logi.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_map_page.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/map_page.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pilltime.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pilltime.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimagea.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimagea.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_step_counter.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/step_counter.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/raw_tap.mp3.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/raw/tap.mp3"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_uploadfrom.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/uploadfrom.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_poetson.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/poetson.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_logibmp.bmp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/logibmp.bmp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_user_signin.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signin.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitolight.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitolight.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimaged.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimaged.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitobold.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitobold.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_baseline_search_24.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pharmacist_signup.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_signup.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_spinner_dropdown_item.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_hearton.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/hearton.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_edit_pharmaceutical_dialog.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/edit_pharmaceutical_dialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pharmacist_signin.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_signin.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/anim_slide_from_right.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/anim/slide_from_right.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_addpharmaceuticals.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/addpharmaceuticals.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimageg.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimageg.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_shareimage.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/shareimage.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/anim_slide_to_right.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/anim/slide_to_right.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_card_drug.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/card_drug.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_store.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/store.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_userdashboard.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/userdashboard.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_corner.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/corner.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_round_outline.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/round_outline.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/anim_slide_to_left.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/anim/slide_to_left.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitomedium.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitomedium.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/xml_file_paths.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitoblack.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitoblack.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pillwoman.jpeg.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pillwoman.jpeg"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_takeaphoto.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/takeaphoto.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_profileviewuser.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profileviewuser.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_doctorsign.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/doctorsign.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pharmaceutical_item.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmaceutical_item.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimagef.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimagef.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_heartoff.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/heartoff.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitoregular.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitoregular.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_shareimage.jpeg.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/shareimage.jpeg"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_profilephotodialog.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profilephotodialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_share.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/share.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_fordrugdetails.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/fordrugdetails.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_usersignin.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/usersignin.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pilimage.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pilimage.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_baseline_account_circle_24.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pharmasup.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pharmasup.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_saved_drugs.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/saved_drugs.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/anim_slide_from_left.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/anim/slide_from_left.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pdashboard.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pdashboard.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pil_tracker.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pil_tracker.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_pillwomanpreview.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/pillwomanpreview.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cardimagee.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cardimagee.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_viewpharmaceuticals.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/viewpharmaceuticals.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_searchview_background.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/searchview_background.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_profile.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/profile.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_dashboard_user.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/dashboard_user.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitobextrabold.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitobextrabold.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_policydialog.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/policydialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/font_nunitorxtralight.ttf.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/font/nunitorxtralight.ttf"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_profileviewpharmacist.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/profileviewpharmacist.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_cornerprofilepic.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/cornerprofilepic.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_pharmacist_dashboard.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/pharmacist_dashboard.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

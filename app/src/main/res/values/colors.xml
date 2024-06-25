@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+    <color name="background">#D3D3D3</color>
+    <color name="foreground">#FF6347</color>
+    <color name="signin">#ffff</color>
+    <color name="user">#f5eaa9</color>
+    <color name="pharmacist">#c2f0e4</color>
+    <color name="statusbar">#FFFF</color>
+</resources>

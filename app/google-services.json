@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382619709582",
+    "firebase_url": "https://pil-pal-default-rtdb.firebaseio.com",
+    "project_id": "pil-pal",
+    "storage_bucket": "pil-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382619709582:android:ee80dc46e84ce8e736d9df",
+        "android_client_info": {
+          "package_name": "com.s22010189.pil_pal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382619709582-2qjtp1bppcmt21qe596s3oojq08gpfj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoSdJtrd2AKiAKe555GHC8Mdgc8b_b9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382619709582-2qjtp1bppcmt21qe596s3oojq08gpfj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
