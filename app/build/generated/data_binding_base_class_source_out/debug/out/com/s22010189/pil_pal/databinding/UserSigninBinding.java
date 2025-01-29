@@ -45,10 +45,10 @@ public final class UserSigninBinding implements ViewBinding {
   public final EditText lognPassword;
 
   @NonNull
-  public final Button signInUser;
+  public final Button signInDirI;
 
   @NonNull
-  public final TextView signinDir;
+  public final Button signInUser;
 
   @NonNull
   public final TextView textView17;
@@ -68,7 +68,7 @@ public final class UserSigninBinding implements ViewBinding {
   private UserSigninBinding(@NonNull ConstraintLayout rootView, @NonNull EditText emailAddress,
       @NonNull ImageView imageView, @NonNull ImageView imageView7, @NonNull Button lginPharm,
       @NonNull Button lginUser, @NonNull LinearLayout linearLayout, @NonNull EditText lognPassword,
-      @NonNull Button signInUser, @NonNull TextView signinDir, @NonNull TextView textView17,
+      @NonNull Button signInDirI, @NonNull Button signInUser, @NonNull TextView textView17,
       @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView20,
       @NonNull TextView textView24) {
     this.rootView = rootView;
@@ -79,8 +79,8 @@ public final class UserSigninBinding implements ViewBinding {
     this.lginUser = lginUser;
     this.linearLayout = linearLayout;
     this.lognPassword = lognPassword;
+    this.signInDirI = signInDirI;
     this.signInUser = signInUser;
-    this.signinDir = signinDir;
     this.textView17 = textView17;
     this.textView18 = textView18;
     this.textView19 = textView19;
@@ -157,15 +157,15 @@ public final class UserSigninBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signInUser;
-      Button signInUser = ViewBindings.findChildViewById(rootView, id);
-      if (signInUser == null) {
+      id = R.id.signInDirI;
+      Button signInDirI = ViewBindings.findChildViewById(rootView, id);
+      if (signInDirI == null) {
         break missingId;
       }
 
-      id = R.id.signinDir;
-      TextView signinDir = ViewBindings.findChildViewById(rootView, id);
-      if (signinDir == null) {
+      id = R.id.signInUser;
+      Button signInUser = ViewBindings.findChildViewById(rootView, id);
+      if (signInUser == null) {
         break missingId;
       }
 
@@ -200,7 +200,7 @@ public final class UserSigninBinding implements ViewBinding {
       }
 
       return new UserSigninBinding((ConstraintLayout) rootView, emailAddress, imageView, imageView7,
-          lginPharm, lginUser, linearLayout, lognPassword, signInUser, signinDir, textView17,
+          lginPharm, lginUser, linearLayout, lognPassword, signInDirI, signInUser, textView17,
           textView18, textView19, textView20, textView24);
     }
     String missingId = rootView.getResources().getResourceName(id);

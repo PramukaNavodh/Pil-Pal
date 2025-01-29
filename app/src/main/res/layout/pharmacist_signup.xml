@@ -57,18 +57,37 @@
             android:textSize="15dp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/pMobileNumber"
-            android:layout_width="277dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:ems="10"
-            android:fontFamily="@font/nunitobold"
-            android:hint="Enter your mobile number"
-            android:textColorHint="#4d3d00"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:inputType="text" />
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <Spinner
+                android:id="@+id/countryCodeP"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:backgroundTint="@color/black"
+                android:background="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:popupBackground="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/pMobileNumber"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/nunitobold"
+                android:hint="xxx xxx xxx"
+                android:textColorHighlight="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:searchResultHighlightColor="@color/black"
+                android:textColorHint="#4d3d00"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/black"
+                android:inputType="number" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView10"

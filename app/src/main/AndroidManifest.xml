@@ -20,7 +20,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -32,25 +31,28 @@
         android:theme="@style/Theme.PilPal"
         tools:targetApi="31">
         <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
             android:name=".ImportantNumbers"
             android:exported="false"
-            android:screenOrientation="portrait" />/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ProfileViewPharmacist"
             android:exported="false"
-            android:screenOrientation="portrait" />/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ProfileViewUser"
             android:exported="false"
-            android:screenOrientation="portrait" />/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ShareImage"
             android:exported="false"
-            android:screenOrientation="portrait" />/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DrugMap"
             android:exported="false"
-            android:screenOrientation="portrait" />/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ViewPharmaceuticals"
             android:exported="false"
@@ -139,8 +141,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        <receiver android:name=".NotificationReceiver" android:exported="false" />
 
+        <receiver
+            android:name=".NotificationReceiver"
+            android:exported="false" />
     </application>
 
 </manifest>

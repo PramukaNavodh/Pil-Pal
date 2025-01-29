@@ -4,7 +4,7 @@
             "outputFile": "com.s22010189.pil_pal.app-mergeDebugResources-3:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pramu\\.gradle\\caches\\transforms-3\\f14642ea6938af49f98c0f5f5c2b82d1\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\pramu\\.gradle\\caches\\transforms-3\\b42f77a18ee23d39570e1321c3e1366c\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\pramu\\.gradle\\caches\\transforms-3\\32a1595788a3207029eb4256db968de5\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\pramu\\.gradle\\caches\\transforms-3\\e1d3488b0ef4c580bfa27f0d9b42ee49\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

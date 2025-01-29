@@ -1,0 +1,6 @@
+com.s22010189.pil_pal.test.app-androidTest-0 B:\Java\PilPal\app\build\generated\res\resValues\androidTest\debug
+com.s22010189.pil_pal.test.app-mergeDebugAndroidTestResources-1 B:\Java\PilPal\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.s22010189.pil_pal.test.app-mergeDebugAndroidTestResources-2 B:\Java\PilPal\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.s22010189.pil_pal.test.app-merged_res-3 B:\Java\PilPal\app\build\intermediates\merged_res\debugAndroidTest
+com.s22010189.pil_pal.test.app-annotation-experimental-1.3.0-4 C:\Users\pramu\.gradle\caches\transforms-3\38bab6e4fa329b2b9b590e2dc7d795f6\transformed\annotation-experimental-1.3.0\res
+com.s22010189.pil_pal.test.app-core-1.5.0-5 C:\Users\pramu\.gradle\caches\transforms-3\ed55370820de7d31d3bd2f50d5401e66\transformed\core-1.5.0\res

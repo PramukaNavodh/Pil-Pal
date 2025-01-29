@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,6 +27,9 @@ public final class PharmacistSignupBinding implements ViewBinding {
 
   @NonNull
   public final CheckBox checkBox1;
+
+  @NonNull
+  public final Spinner countryCodeP;
 
   @NonNull
   public final Button directUser;
@@ -91,15 +95,17 @@ public final class PharmacistSignupBinding implements ViewBinding {
   public final TextView textView9;
 
   private PharmacistSignupBinding(@NonNull ConstraintLayout rootView, @NonNull CheckBox checkBox1,
-      @NonNull Button directUser, @NonNull ImageView imageView, @NonNull LinearLayout linearLayout,
-      @NonNull EditText ownerName, @NonNull EditText pEmail, @NonNull EditText pMobileNumber,
-      @NonNull EditText pPassword, @NonNull Button pSignup, @NonNull Button pharmacist,
-      @NonNull EditText repPassword, @NonNull Button signInPhar, @NonNull EditText storeName,
-      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView516, @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull Spinner countryCodeP, @NonNull Button directUser, @NonNull ImageView imageView,
+      @NonNull LinearLayout linearLayout, @NonNull EditText ownerName, @NonNull EditText pEmail,
+      @NonNull EditText pMobileNumber, @NonNull EditText pPassword, @NonNull Button pSignup,
+      @NonNull Button pharmacist, @NonNull EditText repPassword, @NonNull Button signInPhar,
+      @NonNull EditText storeName, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
+      @NonNull TextView textView15, @NonNull TextView textView516, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.checkBox1 = checkBox1;
+    this.countryCodeP = countryCodeP;
     this.directUser = directUser;
     this.imageView = imageView;
     this.linearLayout = linearLayout;
@@ -153,6 +159,12 @@ public final class PharmacistSignupBinding implements ViewBinding {
       id = R.id.checkBox1;
       CheckBox checkBox1 = ViewBindings.findChildViewById(rootView, id);
       if (checkBox1 == null) {
+        break missingId;
+      }
+
+      id = R.id.countryCodeP;
+      Spinner countryCodeP = ViewBindings.findChildViewById(rootView, id);
+      if (countryCodeP == null) {
         break missingId;
       }
 
@@ -282,10 +294,10 @@ public final class PharmacistSignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new PharmacistSignupBinding((ConstraintLayout) rootView, checkBox1, directUser,
-          imageView, linearLayout, ownerName, pEmail, pMobileNumber, pPassword, pSignup, pharmacist,
-          repPassword, signInPhar, storeName, textView10, textView11, textView12, textView13,
-          textView14, textView15, textView516, textView8, textView9);
+      return new PharmacistSignupBinding((ConstraintLayout) rootView, checkBox1, countryCodeP,
+          directUser, imageView, linearLayout, ownerName, pEmail, pMobileNumber, pPassword, pSignup,
+          pharmacist, repPassword, signInPhar, storeName, textView10, textView11, textView12,
+          textView13, textView14, textView15, textView516, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

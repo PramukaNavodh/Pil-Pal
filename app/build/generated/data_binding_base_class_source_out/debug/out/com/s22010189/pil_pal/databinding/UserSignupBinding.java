@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,6 +23,9 @@ import java.lang.String;
 public final class UserSignupBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final Spinner countryCodeU;
 
   @NonNull
   public final Button directPharmacist;
@@ -86,15 +90,16 @@ public final class UserSignupBinding implements ViewBinding {
   @NonNull
   public final EditText userRePassword;
 
-  private UserSignupBinding(@NonNull ConstraintLayout rootView, @NonNull Button directPharmacist,
-      @NonNull EditText emailAddress, @NonNull EditText firstName, @NonNull ImageView imageView,
-      @NonNull EditText lastName, @NonNull LinearLayout linearLayout,
+  private UserSignupBinding(@NonNull ConstraintLayout rootView, @NonNull Spinner countryCodeU,
+      @NonNull Button directPharmacist, @NonNull EditText emailAddress, @NonNull EditText firstName,
+      @NonNull ImageView imageView, @NonNull EditText lastName, @NonNull LinearLayout linearLayout,
       @NonNull EditText mobileNumber, @NonNull EditText passWord, @NonNull Button signUp,
       @NonNull Button signiDirec, @NonNull TextView textView, @NonNull TextView textView1,
       @NonNull TextView textView26, @NonNull TextView textView3, @NonNull TextView textView32,
       @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
       @NonNull TextView textView7, @NonNull Button user, @NonNull EditText userRePassword) {
     this.rootView = rootView;
+    this.countryCodeU = countryCodeU;
     this.directPharmacist = directPharmacist;
     this.emailAddress = emailAddress;
     this.firstName = firstName;
@@ -145,6 +150,12 @@ public final class UserSignupBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.countryCodeU;
+      Spinner countryCodeU = ViewBindings.findChildViewById(rootView, id);
+      if (countryCodeU == null) {
+        break missingId;
+      }
+
       id = R.id.directPharmacist;
       Button directPharmacist = ViewBindings.findChildViewById(rootView, id);
       if (directPharmacist == null) {
@@ -271,10 +282,10 @@ public final class UserSignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new UserSignupBinding((ConstraintLayout) rootView, directPharmacist, emailAddress,
-          firstName, imageView, lastName, linearLayout, mobileNumber, passWord, signUp, signiDirec,
-          textView, textView1, textView26, textView3, textView32, textView4, textView5, textView6,
-          textView7, user, userRePassword);
+      return new UserSignupBinding((ConstraintLayout) rootView, countryCodeU, directPharmacist,
+          emailAddress, firstName, imageView, lastName, linearLayout, mobileNumber, passWord,
+          signUp, signiDirec, textView, textView1, textView26, textView3, textView32, textView4,
+          textView5, textView6, textView7, user, userRePassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,6 +4,7 @@ anim slide_from_left
 anim slide_from_right
 anim slide_to_left
 anim slide_to_right
+array countrycode_array
 array dose_array
 array hour_array
 array minute_array
@@ -85,10 +86,15 @@ id apekshaText
 id apekshacallButton
 id bcgndImg
 id bsnsHrs
+id btnResetPassword
+id btnSendOtp
+id btnVerifyOtp
 id callPharmacist
 id checkBox1
 id constraintLayout
 id constraintLayout2
+id countryCodeP
+id countryCodeU
 id crdA
 id crdB
 id crdC
@@ -129,6 +135,9 @@ id emailAddressTextP
 id emailProfileAddress
 id enterDrug
 id estd
+id etMobileNumber
+id etNewPassword
+id etOtp
 id expiryD
 id expiryDate
 id findPharm
@@ -242,6 +251,7 @@ id quantityEditText
 id quantityMeasure
 id quantityTextView
 id repPassword
+id resetPasswordP
 id saveStar
 id savedDrugButton
 id scrollView1
@@ -262,6 +272,7 @@ id sharePharmDescription
 id sharePharmDescriptionB
 id sharePharmDescriptionC
 id sharePharmImage
+id signInDirI
 id signInP
 id signInPhar
 id signInUser
@@ -372,6 +383,7 @@ layout policydialog
 layout profilephotodialog
 layout profileviewpharmacist
 layout profileviewuser
+layout resetpassword
 layout saved_drugs
 layout shareimage
 layout step_counter

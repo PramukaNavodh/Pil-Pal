@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="countrycode_array">
+        <item>+94</item>
+        <item>+880</item>
+        <item>+86</item>
+        <item>+91</item>
+        <item>+960</item>
+        <item>+60</item>
+        <item>+65</item>
+        <item>+66</item>
+        <item>+7</item>
+    </string-array>
     <string-array name="dose_array">
         <item>mg</item>
         <item>g</item>

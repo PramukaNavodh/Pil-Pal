@@ -11,8 +11,10 @@ import android.util.Patterns;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,22 +24,15 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-//version 1.0002 intent created for switching between screens.
-//version 1.0003 created sign up access from firebase real time data base.
-//version 1.0004 changed sign up to use fire base authentication.
-//version 1.0005 used realtime database and authentication system together.
-//version 1.0006 added field data validator.
-//version 1.0007 added email existence checker.
-//version 1.0008 added user validator.
-//version 1.0009 bugs fixed in intent. - current
 
 public class UserSignUp extends AppCompatActivity {
     private FirebaseAuth auth;
-    private EditText firstName, lastName, mobileNumber, emailAddress, passWord,reUPassword;
-    private Button signupButton, pharmacistDirection,userSignin;
+    private EditText firstName, lastName, mobileNumber, emailAddress, passWord, reUPassword;
+    private Button signupButton, pharmacistDirection, userSignin;
+    private Spinner countryCode;
 
-    FirebaseDatabase database;
-    DatabaseReference dbRef;
+    private FirebaseDatabase database;
+    private DatabaseReference dbRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +50,15 @@ public class UserSignUp extends AppCompatActivity {
         pharmacistDirection = findViewById(R.id.directPharmacist);
         userSignin = findViewById(R.id.signiDirec);
         reUPassword = findViewById(R.id.userRePassword);
-        //actions happen when triggering signup button.
+        countryCode = findViewById(R.id.countryCodeU);
+
+        // Set up the country code spinner
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.countrycode_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        countryCode.setAdapter(adapter);
+
+        // Handle sign-up button click
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,8 +67,9 @@ public class UserSignUp extends AppCompatActivity {
                 String mnumber = mobileNumber.getText().toString().trim();
                 String email = emailAddress.getText().toString().trim();
                 String password = passWord.getText().toString().trim();
-                String confirm =  reUPassword.getText().toString().trim();
-                //Validating fields
+                String confirm = reUPassword.getText().toString().trim();
+
+                // Validate fields
                 if (fname.isEmpty()) {
                     firstName.setError("First name cannot be empty");
                 } else if (lname.isEmpty()) {
@@ -83,7 +87,8 @@ public class UserSignUp extends AppCompatActivity {
                 }
             }
         });
-        //creating a link to the PharmacistSignUp activity
+
+        // Navigate to PharmacistSignUp
         pharmacistDirection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +97,8 @@ public class UserSignUp extends AppCompatActivity {
                 finish();
             }
         });
-        //creating a link to the UserSignIn activity
+
+        // Navigate to UserSignIn
         userSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,8 +108,14 @@ public class UserSignUp extends AppCompatActivity {
             }
         });
     }
-    //using firebase to store user data. This data stores under the "users" database
+
+    // Register user with Firebase
     private void registerUser(String fname, String lname, String mnumber, String email, String password) {
+        // Get the selected country code from the spinner
+        String selectedCountryCode = countryCode.getSelectedItem().toString();
+        // Combine country code and mobile number
+        String fullMobileNumber = selectedCountryCode + mnumber;
+
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -112,7 +124,7 @@ public class UserSignUp extends AppCompatActivity {
                     database = FirebaseDatabase.getInstance();
                     dbRef = database.getReference("Users").child(userId);
 
-                    Support support = new Support(fname, lname, email, mnumber, password);
+                    Support support = new Support(fname, lname, email, fullMobileNumber, password);
                     dbRef.setValue(support).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
@@ -134,7 +146,8 @@ public class UserSignUp extends AppCompatActivity {
             }
         });
     }
-    //statusbar color
+
+    // Set status bar color
     private void setStatusBarColor() {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
@@ -142,7 +155,6 @@ public class UserSignUp extends AppCompatActivity {
             int statusBarColor = ContextCompat.getColor(this, R.color.statusbar);
             window.setStatusBarColor(statusBarColor);
 
-            //fixing all get white issue.
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                 if (isColorDark(statusBarColor)) {
                     window.getDecorView().setSystemUiVisibility(0); // Light text
@@ -152,12 +164,14 @@ public class UserSignUp extends AppCompatActivity {
             }
         }
     }
+
+    // Check if color is dark
     private boolean isColorDark(int color) {
         double darkness = 1 - (0.299 * Color.red(color) + 0.587 * Color.green(color) + 0.114 * Color.blue(color)) / 255;
         return darkness >= 0.5;
     }
 
-    // at this screen user press back: the app closes
+    // Handle back press
     @Override
     public void onBackPressed() {
         super.onBackPressed();

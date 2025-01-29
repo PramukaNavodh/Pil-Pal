@@ -45,10 +45,13 @@ public final class PharmacistSigninBinding implements ViewBinding {
   public final EditText loginPassword;
 
   @NonNull
+  public final TextView resetPasswordP;
+
+  @NonNull
   public final Button signInP;
 
   @NonNull
-  public final TextView signinDir;
+  public final Button signinDir;
 
   @NonNull
   public final TextView textView57;
@@ -68,9 +71,9 @@ public final class PharmacistSigninBinding implements ViewBinding {
   private PharmacistSigninBinding(@NonNull ConstraintLayout rootView,
       @NonNull EditText emailAddress, @NonNull ImageView imageView, @NonNull ImageView imageView8,
       @NonNull Button lginPharm1, @NonNull Button lginUser1, @NonNull LinearLayout linearLayout,
-      @NonNull EditText loginPassword, @NonNull Button signInP, @NonNull TextView signinDir,
-      @NonNull TextView textView57, @NonNull TextView textView58, @NonNull TextView textView59,
-      @NonNull TextView textView60, @NonNull TextView textView64) {
+      @NonNull EditText loginPassword, @NonNull TextView resetPasswordP, @NonNull Button signInP,
+      @NonNull Button signinDir, @NonNull TextView textView57, @NonNull TextView textView58,
+      @NonNull TextView textView59, @NonNull TextView textView60, @NonNull TextView textView64) {
     this.rootView = rootView;
     this.emailAddress = emailAddress;
     this.imageView = imageView;
@@ -79,6 +82,7 @@ public final class PharmacistSigninBinding implements ViewBinding {
     this.lginUser1 = lginUser1;
     this.linearLayout = linearLayout;
     this.loginPassword = loginPassword;
+    this.resetPasswordP = resetPasswordP;
     this.signInP = signInP;
     this.signinDir = signinDir;
     this.textView57 = textView57;
@@ -157,6 +161,12 @@ public final class PharmacistSigninBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.resetPasswordP;
+      TextView resetPasswordP = ViewBindings.findChildViewById(rootView, id);
+      if (resetPasswordP == null) {
+        break missingId;
+      }
+
       id = R.id.signInP;
       Button signInP = ViewBindings.findChildViewById(rootView, id);
       if (signInP == null) {
@@ -164,7 +174,7 @@ public final class PharmacistSigninBinding implements ViewBinding {
       }
 
       id = R.id.signinDir;
-      TextView signinDir = ViewBindings.findChildViewById(rootView, id);
+      Button signinDir = ViewBindings.findChildViewById(rootView, id);
       if (signinDir == null) {
         break missingId;
       }
@@ -200,8 +210,8 @@ public final class PharmacistSigninBinding implements ViewBinding {
       }
 
       return new PharmacistSigninBinding((ConstraintLayout) rootView, emailAddress, imageView,
-          imageView8, lginPharm1, lginUser1, linearLayout, loginPassword, signInP, signinDir,
-          textView57, textView58, textView59, textView60, textView64);
+          imageView8, lginPharm1, lginUser1, linearLayout, loginPassword, resetPasswordP, signInP,
+          signinDir, textView57, textView58, textView59, textView60, textView64);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

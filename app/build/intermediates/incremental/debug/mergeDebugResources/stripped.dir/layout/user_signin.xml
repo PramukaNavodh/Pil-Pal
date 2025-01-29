@@ -34,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745">
+        app:layout_constraintVertical_bias="0.701">
 
         <TextView
             android:id="@+id/textView17"
@@ -90,15 +90,49 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="50dp"
             android:backgroundTint="#cc9900"
             android:fontFamily="@font/poetson"
             android:text="Sign In"
             android:textColor="@color/black"
-            android:layout_marginTop="8dp"
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/lginPharm"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#cccccc"
+        android:fontFamily="@font/poetson"
+        android:text="Pharmacist"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <Button
+        android:id="@+id/lginUser"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#cc9900"
+        android:fontFamily="@font/poetson"
+        android:text="User"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
 
     <TextView
         android:id="@+id/textView19"
@@ -141,60 +175,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
-
-    <TextView
-        android:id="@+id/signinDir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poetson"
-        android:onClick="goSignIn"
-        android:text="Sign Up"
-        android:textColor="#000080"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
-
-    <Button
-        android:id="@+id/lginUser"
-        android:layout_width="138dp"
-        android:layout_height="53dp"
-        android:backgroundTint="#cc9900"
-        android:fontFamily="@font/poetson"
-        android:text="User"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
-
-    <Button
-        android:id="@+id/lginPharm"
-        android:layout_width="138dp"
-        android:layout_height="53dp"
-        android:backgroundTint="#cccccc"
-        android:fontFamily="@font/poetson"
-        android:text="Pharmacist"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.905" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -206,5 +190,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.189"
         app:srcCompat="@drawable/usersignin" />
+
+    <Button
+        android:id="@+id/signInDirI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffff"
+        android:text="Sign-Up"
+        android:textColor="#000080"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

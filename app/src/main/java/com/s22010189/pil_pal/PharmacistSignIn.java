@@ -34,10 +34,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class PharmacistSignIn extends AppCompatActivity {
 
-    private TextView signipDir;
     private EditText loginEmail, loginPassword;
     private FirebaseAuth auth;
-    private Button loginPharmacist, UserDir;
+    private Button loginPharmacist, UserDir,signipDir;
     FirebaseDatabase database;
     DatabaseReference dbRef;
 

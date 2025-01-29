@@ -1,0 +1,3 @@
+com.s22010189.pil_pal.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

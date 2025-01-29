@@ -38,8 +38,7 @@ import com.google.firebase.database.ValueEventListener;
 public class UserSignIn extends AppCompatActivity {
     private FirebaseAuth auth;
     private EditText loginEmail, loginPassword;
-    private Button signinButton, pharmDir;
-    private TextView signipDir;
+    private Button signinButton, pharmDir,signInDirI;
     FirebaseDatabase database;
     DatabaseReference dbRef;
 
@@ -52,7 +51,8 @@ public class UserSignIn extends AppCompatActivity {
         setStatusBarColor();
 
         pharmDir = findViewById(R.id.lginPharm);
-        signipDir = findViewById(R.id.signinDir);
+        signInDirI = findViewById(R.id.signInDirI);
+
         //creating a link to the PharmacistSignIn activity
         pharmDir.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +62,7 @@ public class UserSignIn extends AppCompatActivity {
             }
         });
         //creating a link to the UserSignUp activity
-        signipDir.setOnClickListener(new View.OnClickListener() {
+        signInDirI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(UserSignIn.this, UserSignUp.class);

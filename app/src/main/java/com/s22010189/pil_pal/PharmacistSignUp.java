@@ -14,9 +14,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +37,7 @@ public class PharmacistSignUp extends AppCompatActivity {
     private CheckBox checkBox;
     private FirebaseDatabase database;
     private DatabaseReference dbRef;
+    private Spinner countyCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +57,12 @@ public class PharmacistSignUp extends AppCompatActivity {
         pharmSignin = findViewById(R.id.signInPhar);
         rePassword = findViewById(R.id.repPassword);
         checkBox = findViewById(R.id.checkBox1);
+        countyCode = findViewById(R.id.countryCodeP);
+
+        ArrayAdapter<CharSequence> adapterp = ArrayAdapter.createFromResource(this,
+                R.array.countrycode_array, android.R.layout.simple_spinner_item);
+        adapterp.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        countyCode.setAdapter(adapterp);
 
         pharmacistSignup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +73,12 @@ public class PharmacistSignUp extends AppCompatActivity {
                 String pemail = pharmacistEmail.getText().toString().trim();
                 String epassword = pharmacistPassword.getText().toString().trim();
                 String erepassword = rePassword.getText().toString().trim();
+
+                // Get the selected country code
+                String countryCode = countyCode.getSelectedItem().toString().trim();
+                // Combine country code and mobile number
+                String fullMobileNumber = countryCode + pnumber;
+
                 // Validating fields
                 if (sname.isEmpty()) {
                     storeName.setError("Store Name cannot be Empty");
@@ -80,7 +95,7 @@ public class PharmacistSignUp extends AppCompatActivity {
                 } else if (!checkBox.isChecked()) {
                     Toast.makeText(PharmacistSignUp.this, "You have to agree with policies to signup", Toast.LENGTH_SHORT).show();
                 } else {
-                    registerUser(sname, pnumber, ownname, pemail, epassword);
+                    registerUser(sname, fullMobileNumber, ownname, pemail, epassword);
                 }
             }
         });
@@ -138,10 +153,8 @@ public class PharmacistSignUp extends AppCompatActivity {
         dialog.getWindow().setLayout(width, height);
     }
 
-
-
     // Register user method to get user inputs and store in the database
-    private void registerUser(String sname, String pnumber, String ownname, String pemail, String epassword) {
+    private void registerUser(String sname, String fullMobileNumber, String ownname, String pemail, String epassword) {
         auth.createUserWithEmailAndPassword(pemail, epassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -150,7 +163,7 @@ public class PharmacistSignUp extends AppCompatActivity {
                     database = FirebaseDatabase.getInstance();
                     dbRef = database.getReference("Pharmacists").child(userId);
 
-                    SupportPharmacist supportPharmacist = new SupportPharmacist(sname, pnumber, ownname, pemail, epassword);
+                    SupportPharmacist supportPharmacist = new SupportPharmacist(sname, fullMobileNumber, ownname, pemail, epassword);
                     dbRef.setValue(supportPharmacist).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
@@ -169,7 +182,8 @@ public class PharmacistSignUp extends AppCompatActivity {
             }
         });
     }
-    //statusbar color
+
+    // Status bar color
     private void setStatusBarColor() {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
@@ -177,7 +191,7 @@ public class PharmacistSignUp extends AppCompatActivity {
             int statusBarColor = ContextCompat.getColor(this, R.color.statusbar);
             window.setStatusBarColor(statusBarColor);
 
-            //fixing all get white issue.
+            // Fixing all get white issue
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                 if (isColorDark(statusBarColor)) {
                     window.getDecorView().setSystemUiVisibility(0); // Light text
@@ -187,6 +201,7 @@ public class PharmacistSignUp extends AppCompatActivity {
             }
         }
     }
+
     private boolean isColorDark(int color) {
         double darkness = 1 - (0.299 * Color.red(color) + 0.587 * Color.green(color) + 0.114 * Color.blue(color)) / 255;
         return darkness >= 0.5;
