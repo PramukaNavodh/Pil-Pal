@@ -62,6 +62,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PilPal" >
         <activity
+            android:name="com.s22010189.pil_pal.ResetPasswordOTP"
+            android:exported="false" />
+        <activity
             android:name="com.s22010189.pil_pal.ResetPassword"
             android:exported="false" />
         <activity

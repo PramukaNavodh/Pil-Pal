@@ -12,12 +12,16 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\font_nunitolight.ttf.flat",
-        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\font\\nunitolight.ttf"
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/drawable_otp.png.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/drawable/otp.png"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_drug_details.xml.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\drug_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\font_nunitolight.ttf.flat",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\font\\nunitolight.ttf"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\font_nunitobextrabold.ttf.flat",
@@ -64,16 +68,20 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_profileviewpharmacist.xml.flat",
-        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\profileviewpharmacist.xml"
-    },
-    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_profileviewpharmacist.xml.flat",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\profileviewpharmacist.xml"
+    },
+    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_card_drug.xml.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\card_drug.xml"
+    },
+    {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\drawable_back.png.flat",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\drawable\\back.png"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\drawable_baseline_account_circle_24.xml.flat",
@@ -172,10 +180,6 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\dashboard_user.xml"
     },
     {
-        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_user_signin.xml.flat",
-        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signin.xml"
-    },
-    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\font_nunitoregular.ttf.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\font\\nunitoregular.ttf"
     },
@@ -244,6 +248,10 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\drawable\\jog.png"
     },
     {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_reset_password.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/reset_password.xml"
+    },
+    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -310,6 +318,10 @@
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_pharmacist_signup.xml.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\pharmacist_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\drawable_resetpassword.png.flat",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\drawable\\resetpassword.png"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -388,8 +400,16 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\profileviewuser.xml"
     },
     {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_reset_password.xml.flat",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\reset_password.xml"
+    },
+    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\drawable_cardimaged.png.flat",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\drawable\\cardimaged.png"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-merged_res-5:/layout_otp_verifier_reset.xml.flat",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/otp_verifier_reset.xml"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-merged_res-5:\\layout_step_counter.xml.flat",

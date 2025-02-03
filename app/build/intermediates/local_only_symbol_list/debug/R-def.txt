@@ -23,6 +23,7 @@ dimen activity_horizontal_margin
 dimen activity_vertical_margin
 dimen dialog_height
 dimen dialog_width
+drawable back
 drawable baseline_account_circle_24
 drawable baseline_search_24
 drawable buttonshaper
@@ -46,6 +47,7 @@ drawable jog
 drawable jogging
 drawable logi
 drawable logibmp
+drawable otp
 drawable pdashboard
 drawable pharmasup
 drawable pilimage
@@ -54,6 +56,7 @@ drawable pillwoman
 drawable pillwomanpreview
 drawable profile
 drawable progress_bar_drawable
+drawable resetpassword
 drawable round_outline
 drawable search
 drawable searchview_background
@@ -84,11 +87,10 @@ id addtoButton
 id apeksha
 id apekshaText
 id apekshacallButton
+id backInReset
+id backInResetTwo
 id bcgndImg
 id bsnsHrs
-id btnResetPassword
-id btnSendOtp
-id btnVerifyOtp
 id callPharmacist
 id checkBox1
 id constraintLayout
@@ -133,11 +135,10 @@ id emailAddressHere
 id emailAddressText
 id emailAddressTextP
 id emailProfileAddress
+id emailVerifier
+id emailVerifierButton
 id enterDrug
 id estd
-id etMobileNumber
-id etNewPassword
-id etOtp
 id expiryD
 id expiryDate
 id findPharm
@@ -169,7 +170,10 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
+id imageView25
 id imageView26
+id imageView27
+id imageView28
 id imageView3
 id imageView4
 id imageView5
@@ -215,6 +219,8 @@ id nawaloka
 id nawalokaText
 id nawalokacallButton
 id numberMobile
+id otpVerifier
+id otpVerifierButton
 id ownerName
 id pEmail
 id pMobileNumber
@@ -231,6 +237,7 @@ id pharmLocation
 id pharmName
 id pharmNameB
 id pharmPrice
+id pharmResetPassword
 id pharmSideEffects
 id pharmaceuticalsList
 id pharmacist
@@ -251,7 +258,6 @@ id quantityEditText
 id quantityMeasure
 id quantityTextView
 id repPassword
-id resetPasswordP
 id saveStar
 id savedDrugButton
 id scrollView1
@@ -337,12 +343,13 @@ id textView4
 id textView5
 id textView5012
 id textView516
+id textView539
+id textView549
 id textView57
 id textView58
 id textView59
 id textView6
 id textView60
-id textView64
 id textView7
 id textView8
 id textView9
@@ -362,6 +369,7 @@ id userPassword
 id userPasswordProfile
 id userProfile
 id userRePassword
+id userResetPassword
 id viewData
 id viewDrugsButton
 layout addpharmaceuticals
@@ -373,6 +381,7 @@ layout drugmap
 layout edit_pharmaceutical_dialog
 layout importantnumbers
 layout map_page
+layout otp_verifier_reset
 layout pharmaceutical_item
 layout pharmacist_dashboard
 layout pharmacist_signin
@@ -383,7 +392,7 @@ layout policydialog
 layout profilephotodialog
 layout profileviewpharmacist
 layout profileviewuser
-layout resetpassword
+layout reset_password
 layout saved_drugs
 layout shareimage
 layout step_counter

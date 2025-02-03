@@ -20,10 +20,6 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\card_drug.xml"
     },
     {
-        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/user_signin.xml",
-        "source": "com.s22010189.pil_pal.app-main-7:/layout/user_signin.xml"
-    },
-    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\pharmacistsignupsupport.xml",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\pharmacistsignupsupport.xml"
     },
@@ -48,8 +44,16 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\shareimage.xml"
     },
     {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\reset_password.xml",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\reset_password.xml"
+    },
+    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\edit_pharmaceutical_dialog.xml",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\edit_pharmaceutical_dialog.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/reset_password.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/reset_password.xml"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\drugmap.xml",
@@ -88,6 +92,10 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\pil_tracker.xml"
     },
     {
+        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\pharmacist_signin.xml",
+        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\pharmacist_signin.xml"
+    },
+    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\profileviewuser.xml",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\profileviewuser.xml"
     },
@@ -96,12 +104,12 @@
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\saved_drugs.xml"
     },
     {
-        "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\pharmacist_signin.xml",
-        "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\pharmacist_signin.xml"
-    },
-    {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\resetpassword.xml",
         "source": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-main-7:\\layout\\resetpassword.xml"
+    },
+    {
+        "merged": "com.s22010189.pil_pal.app-mergeDebugResources-4:/layout/otp_verifier_reset.xml",
+        "source": "com.s22010189.pil_pal.app-main-7:/layout/otp_verifier_reset.xml"
     },
     {
         "merged": "C:\\Users\\pramu\\.gradle\\daemon\\8.2\\com.s22010189.pil_pal.app-mergeDebugResources-4:\\layout\\pharmacist_signup.xml",

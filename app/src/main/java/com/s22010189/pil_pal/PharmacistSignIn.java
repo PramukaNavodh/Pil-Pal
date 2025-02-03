@@ -55,6 +55,7 @@ public class PharmacistSignIn extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PharmacistSignIn.this, UserSignIn.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_from_left, R.anim.slide_to_right);
             }
         });
 

@@ -3068,6 +3068,7 @@ int drawable abc_textfield_search_material 0x7f080076
 int drawable abc_vector_test 0x7f080077
 int drawable avd_hide_password 0x7f080078
 int drawable avd_show_password 0x7f080079
+int drawable back 0x7f080128
 int drawable baseline_account_circle_24 0x7f08007a
 int drawable baseline_search_24 0x7f08007b
 int drawable btn_checkbox_checked_mtrl 0x7f08007c
@@ -3219,6 +3220,7 @@ int drawable notification_template_icon_bg 0x7f08010d
 int drawable notification_template_icon_low_bg 0x7f08010e
 int drawable notification_tile_bg 0x7f08010f
 int drawable notify_panel_notification_icon_bg 0x7f080110
+int drawable otp 0x7f08012a
 int drawable pdashboard 0x7f080111
 int drawable pharmasup 0x7f080112
 int drawable pilimage 0x7f080113
@@ -3227,6 +3229,7 @@ int drawable pillwoman 0x7f080115
 int drawable pillwomanpreview 0x7f080116
 int drawable profile 0x7f080117
 int drawable progress_bar_drawable 0x7f080118
+int drawable resetpassword 0x7f080129
 int drawable round_outline 0x7f080119
 int drawable search 0x7f08011a
 int drawable searchview_background 0x7f08011b
@@ -3351,6 +3354,8 @@ int id autoComplete 0x7f0a0060
 int id autoCompleteToEnd 0x7f0a0061
 int id autoCompleteToStart 0x7f0a0062
 int id axisRelative 0x7f0a0063
+int id backInReset 0x7f0a032d
+int id backInResetTwo 0x7f0a0332
 int id barrier 0x7f0a0064
 int id baseline 0x7f0a0065
 int id bcgndImg 0x7f0a0066
@@ -3370,9 +3375,6 @@ int id browser_actions_menu_item_text 0x7f0a0073
 int id browser_actions_menu_items 0x7f0a0074
 int id browser_actions_menu_view 0x7f0a0075
 int id bsnsHrs 0x7f0a0076
-int id btnResetPassword 0x7f0a0077
-int id btnSendOtp 0x7f0a0078
-int id btnVerifyOtp 0x7f0a0079
 int id buttonPanel 0x7f0a007a
 int id cache_measures 0x7f0a007b
 int id callMeasure 0x7f0a007c
@@ -3494,6 +3496,8 @@ int id emailAddressHere 0x7f0a00ef
 int id emailAddressText 0x7f0a00f0
 int id emailAddressTextP 0x7f0a00f1
 int id emailProfileAddress 0x7f0a00f2
+int id emailVerifier 0x7f0a032e
+int id emailVerifierButton 0x7f0a032f
 int id embed 0x7f0a00f3
 int id end 0x7f0a00f4
 int id endToStart 0x7f0a00f5
@@ -3502,9 +3506,6 @@ int id enterAlwaysCollapsed 0x7f0a00f7
 int id enterDrug 0x7f0a00f8
 int id escape 0x7f0a00f9
 int id estd 0x7f0a00fa
-int id etMobileNumber 0x7f0a00fb
-int id etNewPassword 0x7f0a00fc
-int id etOtp 0x7f0a00fd
 int id exitUntilCollapsed 0x7f0a00fe
 int id expand_activities_button 0x7f0a00ff
 int id expanded_menu 0x7f0a0100
@@ -3582,7 +3583,10 @@ int id imageView21 0x7f0a0147
 int id imageView22 0x7f0a0148
 int id imageView23 0x7f0a0149
 int id imageView24 0x7f0a014a
+int id imageView25 0x7f0a0330
 int id imageView26 0x7f0a014b
+int id imageView27 0x7f0a0331
+int id imageView28 0x7f0a0333
 int id imageView3 0x7f0a014c
 int id imageView4 0x7f0a014d
 int id imageView5 0x7f0a014e
@@ -3744,6 +3748,8 @@ int id open_search_view_search_prefix 0x7f0a01e9
 int id open_search_view_status_bar_spacer 0x7f0a01ea
 int id open_search_view_toolbar 0x7f0a01eb
 int id open_search_view_toolbar_container 0x7f0a01ec
+int id otpVerifier 0x7f0a0334
+int id otpVerifierButton 0x7f0a0335
 int id outline 0x7f0a01ed
 int id outward 0x7f0a01ee
 int id overshoot 0x7f0a01ef
@@ -3774,6 +3780,7 @@ int id pharmLocation 0x7f0a0207
 int id pharmName 0x7f0a0208
 int id pharmNameB 0x7f0a0209
 int id pharmPrice 0x7f0a020a
+int id pharmResetPassword 0x7f0a032b
 int id pharmSideEffects 0x7f0a020b
 int id pharmaceuticalsList 0x7f0a020c
 int id pharmacist 0x7f0a020d
@@ -3804,7 +3811,6 @@ int id ratio 0x7f0a0225
 int id rectangles 0x7f0a0226
 int id repPassword 0x7f0a0227
 int id report_drawn 0x7f0a0228
-int id resetPasswordP 0x7f0a0229
 int id reverseSawtooth 0x7f0a022b
 int id right 0x7f0a022c
 int id rightToLeft 0x7f0a022d
@@ -3981,12 +3987,13 @@ int id textView4 0x7f0a02d7
 int id textView5 0x7f0a02d8
 int id textView5012 0x7f0a02d9
 int id textView516 0x7f0a02da
+int id textView539 0x7f0a0336
+int id textView549 0x7f0a0337
 int id textView57 0x7f0a02db
 int id textView58 0x7f0a02dc
 int id textView59 0x7f0a02dd
 int id textView6 0x7f0a02de
 int id textView60 0x7f0a02df
-int id textView64 0x7f0a02e0
 int id textView7 0x7f0a02e1
 int id textView8 0x7f0a02e2
 int id textView9 0x7f0a02e3
@@ -4039,6 +4046,7 @@ int id userPassword 0x7f0a0311
 int id userPasswordProfile 0x7f0a0312
 int id userProfile 0x7f0a0313
 int id userRePassword 0x7f0a0314
+int id userResetPassword 0x7f0a032c
 int id vertical 0x7f0a0315
 int id vertical_only 0x7f0a0316
 int id viewData 0x7f0a0317
@@ -4262,6 +4270,7 @@ int layout notification_template_custom_big 0x7f0d006e
 int layout notification_template_icon_group 0x7f0d006f
 int layout notification_template_part_chronometer 0x7f0d0070
 int layout notification_template_part_time 0x7f0d0071
+int layout otp_verifier_reset 0x7f0d0088
 int layout pharmaceutical_item 0x7f0d0072
 int layout pharmacist_dashboard 0x7f0d0073
 int layout pharmacist_signin 0x7f0d0074
@@ -4272,7 +4281,7 @@ int layout policydialog 0x7f0d0078
 int layout profilephotodialog 0x7f0d0079
 int layout profileviewpharmacist 0x7f0d007a
 int layout profileviewuser 0x7f0d007b
-int layout resetpassword 0x7f0d007c
+int layout reset_password 0x7f0d0087
 int layout saved_drugs 0x7f0d007d
 int layout select_dialog_item_material 0x7f0d007e
 int layout select_dialog_multichoice_material 0x7f0d007f

@@ -3,7 +3,6 @@ package com.s22010189.pil_pal;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Intent;
@@ -16,9 +15,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -28,17 +25,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-//version 1.0002 intent created for switching between screens.
-//version 1.0003 created sign up access from firebase real time data base.
-//version 1.0004 changed sign up to use fire base authentication.
-//version 1.0005 used realtime database and authentication system together.
-//version 1.0010 added field validator.
-//version 1.0011 added user type validator. Pharmacists cannot use to sign in. - current
 
 public class UserSignIn extends AppCompatActivity {
     private FirebaseAuth auth;
     private EditText loginEmail, loginPassword;
-    private Button signinButton, pharmDir,signInDirI;
+    private Button signinButton, pharmDir,signInDirI, userReset;
     FirebaseDatabase database;
     DatabaseReference dbRef;
 
@@ -47,11 +38,17 @@ public class UserSignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_signin);
 
-        createNotificationChannel();
-        setStatusBarColor();
-
         pharmDir = findViewById(R.id.lginPharm);
         signInDirI = findViewById(R.id.signInDirI);
+        loginEmail = findViewById(R.id.emailAddress);
+        loginPassword = findViewById(R.id.lognPassword);
+        signinButton = findViewById(R.id.signInUser);
+        userReset = findViewById(R.id.userResetPassword);
+        auth = FirebaseAuth.getInstance();
+
+
+        createNotificationChannel();
+        setStatusBarColor();
 
         //creating a link to the PharmacistSignIn activity
         pharmDir.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +56,7 @@ public class UserSignIn extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(UserSignIn.this, PharmacistSignIn.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
             }
         });
         //creating a link to the UserSignUp activity
@@ -69,11 +67,17 @@ public class UserSignIn extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //creating a link to resetPassword
+        userReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserSignIn.this, ResetPassword.class);
+                startActivity(intent);
+            }
+        });
 
-        auth = FirebaseAuth.getInstance();
-        loginEmail = findViewById(R.id.emailAddress);
-        loginPassword = findViewById(R.id.lognPassword);
-        signinButton = findViewById(R.id.signInUser);
+
+
         //action triggers when signin button clicked
         signinButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -176,4 +180,5 @@ public class UserSignIn extends AppCompatActivity {
         super.onBackPressed();
 //        finishAffinity();
     }
+
 }

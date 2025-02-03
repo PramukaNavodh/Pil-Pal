@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -16,38 +18,43 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class ResetpasswordBinding implements ViewBinding {
+public final class ResetPasswordBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnResetPassword;
+  public final ImageView backInReset;
 
   @NonNull
-  public final Button btnSendOtp;
+  public final EditText emailVerifier;
 
   @NonNull
-  public final Button btnVerifyOtp;
+  public final Button emailVerifierButton;
 
   @NonNull
-  public final EditText etMobileNumber;
+  public final ImageView imageView25;
 
   @NonNull
-  public final EditText etNewPassword;
+  public final ImageView imageView27;
 
   @NonNull
-  public final EditText etOtp;
+  public final TextView textView24;
 
-  private ResetpasswordBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnResetPassword,
-      @NonNull Button btnSendOtp, @NonNull Button btnVerifyOtp, @NonNull EditText etMobileNumber,
-      @NonNull EditText etNewPassword, @NonNull EditText etOtp) {
+  @NonNull
+  public final TextView textView539;
+
+  private ResetPasswordBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView backInReset,
+      @NonNull EditText emailVerifier, @NonNull Button emailVerifierButton,
+      @NonNull ImageView imageView25, @NonNull ImageView imageView27, @NonNull TextView textView24,
+      @NonNull TextView textView539) {
     this.rootView = rootView;
-    this.btnResetPassword = btnResetPassword;
-    this.btnSendOtp = btnSendOtp;
-    this.btnVerifyOtp = btnVerifyOtp;
-    this.etMobileNumber = etMobileNumber;
-    this.etNewPassword = etNewPassword;
-    this.etOtp = etOtp;
+    this.backInReset = backInReset;
+    this.emailVerifier = emailVerifier;
+    this.emailVerifierButton = emailVerifierButton;
+    this.imageView25 = imageView25;
+    this.imageView27 = imageView27;
+    this.textView24 = textView24;
+    this.textView539 = textView539;
   }
 
   @Override
@@ -57,14 +64,14 @@ public final class ResetpasswordBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ResetpasswordBinding inflate(@NonNull LayoutInflater inflater) {
+  public static ResetPasswordBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static ResetpasswordBinding inflate(@NonNull LayoutInflater inflater,
+  public static ResetPasswordBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.resetpassword, parent, false);
+    View root = inflater.inflate(R.layout.reset_password, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -72,49 +79,55 @@ public final class ResetpasswordBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ResetpasswordBinding bind(@NonNull View rootView) {
+  public static ResetPasswordBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnResetPassword;
-      Button btnResetPassword = ViewBindings.findChildViewById(rootView, id);
-      if (btnResetPassword == null) {
+      id = R.id.backInReset;
+      ImageView backInReset = ViewBindings.findChildViewById(rootView, id);
+      if (backInReset == null) {
         break missingId;
       }
 
-      id = R.id.btnSendOtp;
-      Button btnSendOtp = ViewBindings.findChildViewById(rootView, id);
-      if (btnSendOtp == null) {
+      id = R.id.emailVerifier;
+      EditText emailVerifier = ViewBindings.findChildViewById(rootView, id);
+      if (emailVerifier == null) {
         break missingId;
       }
 
-      id = R.id.btnVerifyOtp;
-      Button btnVerifyOtp = ViewBindings.findChildViewById(rootView, id);
-      if (btnVerifyOtp == null) {
+      id = R.id.emailVerifierButton;
+      Button emailVerifierButton = ViewBindings.findChildViewById(rootView, id);
+      if (emailVerifierButton == null) {
         break missingId;
       }
 
-      id = R.id.etMobileNumber;
-      EditText etMobileNumber = ViewBindings.findChildViewById(rootView, id);
-      if (etMobileNumber == null) {
+      id = R.id.imageView25;
+      ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView25 == null) {
         break missingId;
       }
 
-      id = R.id.etNewPassword;
-      EditText etNewPassword = ViewBindings.findChildViewById(rootView, id);
-      if (etNewPassword == null) {
+      id = R.id.imageView27;
+      ImageView imageView27 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView27 == null) {
         break missingId;
       }
 
-      id = R.id.etOtp;
-      EditText etOtp = ViewBindings.findChildViewById(rootView, id);
-      if (etOtp == null) {
+      id = R.id.textView24;
+      TextView textView24 = ViewBindings.findChildViewById(rootView, id);
+      if (textView24 == null) {
         break missingId;
       }
 
-      return new ResetpasswordBinding((ConstraintLayout) rootView, btnResetPassword, btnSendOtp,
-          btnVerifyOtp, etMobileNumber, etNewPassword, etOtp);
+      id = R.id.textView539;
+      TextView textView539 = ViewBindings.findChildViewById(rootView, id);
+      if (textView539 == null) {
+        break missingId;
+      }
+
+      return new ResetPasswordBinding((ConstraintLayout) rootView, backInReset, emailVerifier,
+          emailVerifierButton, imageView25, imageView27, textView24, textView539);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

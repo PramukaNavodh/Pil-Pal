@@ -3069,6 +3069,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable baseline_account_circle_24
 drawable baseline_search_24
 drawable btn_checkbox_checked_mtrl
@@ -3220,6 +3221,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable otp
 drawable pdashboard
 drawable pharmasup
 drawable pilimage
@@ -3228,6 +3230,7 @@ drawable pillwoman
 drawable pillwomanpreview
 drawable profile
 drawable progress_bar_drawable
+drawable resetpassword
 drawable round_outline
 drawable search
 drawable searchview_background
@@ -3352,6 +3355,8 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id axisRelative
+id backInReset
+id backInResetTwo
 id barrier
 id baseline
 id bcgndImg
@@ -3371,9 +3376,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id bsnsHrs
-id btnResetPassword
-id btnSendOtp
-id btnVerifyOtp
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3495,6 +3497,8 @@ id emailAddressHere
 id emailAddressText
 id emailAddressTextP
 id emailProfileAddress
+id emailVerifier
+id emailVerifierButton
 id embed
 id end
 id endToStart
@@ -3503,9 +3507,6 @@ id enterAlwaysCollapsed
 id enterDrug
 id escape
 id estd
-id etMobileNumber
-id etNewPassword
-id etOtp
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3583,7 +3584,10 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
+id imageView25
 id imageView26
+id imageView27
+id imageView28
 id imageView3
 id imageView4
 id imageView5
@@ -3745,6 +3749,8 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id otpVerifier
+id otpVerifierButton
 id outline
 id outward
 id overshoot
@@ -3775,6 +3781,7 @@ id pharmLocation
 id pharmName
 id pharmNameB
 id pharmPrice
+id pharmResetPassword
 id pharmSideEffects
 id pharmaceuticalsList
 id pharmacist
@@ -3805,7 +3812,6 @@ id ratio
 id rectangles
 id repPassword
 id report_drawn
-id resetPasswordP
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3982,12 +3988,13 @@ id textView4
 id textView5
 id textView5012
 id textView516
+id textView539
+id textView549
 id textView57
 id textView58
 id textView59
 id textView6
 id textView60
-id textView64
 id textView7
 id textView8
 id textView9
@@ -4040,6 +4047,7 @@ id userPassword
 id userPasswordProfile
 id userProfile
 id userRePassword
+id userResetPassword
 id vertical
 id vertical_only
 id viewData
@@ -4263,6 +4271,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout otp_verifier_reset
 layout pharmaceutical_item
 layout pharmacist_dashboard
 layout pharmacist_signin
@@ -4273,7 +4282,7 @@ layout policydialog
 layout profilephotodialog
 layout profileviewpharmacist
 layout profileviewuser
-layout resetpassword
+layout reset_password
 layout saved_drugs
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

@@ -63,14 +63,14 @@ public final class UserSigninBinding implements ViewBinding {
   public final TextView textView20;
 
   @NonNull
-  public final TextView textView24;
+  public final Button userResetPassword;
 
   private UserSigninBinding(@NonNull ConstraintLayout rootView, @NonNull EditText emailAddress,
       @NonNull ImageView imageView, @NonNull ImageView imageView7, @NonNull Button lginPharm,
       @NonNull Button lginUser, @NonNull LinearLayout linearLayout, @NonNull EditText lognPassword,
       @NonNull Button signInDirI, @NonNull Button signInUser, @NonNull TextView textView17,
       @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView20,
-      @NonNull TextView textView24) {
+      @NonNull Button userResetPassword) {
     this.rootView = rootView;
     this.emailAddress = emailAddress;
     this.imageView = imageView;
@@ -85,7 +85,7 @@ public final class UserSigninBinding implements ViewBinding {
     this.textView18 = textView18;
     this.textView19 = textView19;
     this.textView20 = textView20;
-    this.textView24 = textView24;
+    this.userResetPassword = userResetPassword;
   }
 
   @Override
@@ -193,15 +193,15 @@ public final class UserSigninBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView24;
-      TextView textView24 = ViewBindings.findChildViewById(rootView, id);
-      if (textView24 == null) {
+      id = R.id.userResetPassword;
+      Button userResetPassword = ViewBindings.findChildViewById(rootView, id);
+      if (userResetPassword == null) {
         break missingId;
       }
 
       return new UserSigninBinding((ConstraintLayout) rootView, emailAddress, imageView, imageView7,
           lginPharm, lginUser, linearLayout, lognPassword, signInDirI, signInUser, textView17,
-          textView18, textView19, textView20, textView24);
+          textView18, textView19, textView20, userResetPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
