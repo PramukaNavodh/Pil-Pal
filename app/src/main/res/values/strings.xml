@@ -9,7 +9,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="my_api_key">AIzaSyDV51v_MAwfDEM0SAd3wZ9wRvbFM5CI9yk</string>
+    <string name="my_api_key">#########k</string>
     <string-array name="time_array">
         <item>00.00</item>
         <item>00.30</item>
