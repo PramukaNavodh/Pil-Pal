@@ -165,7 +165,7 @@ public class MapPage extends AppCompatActivity implements
         googleURL.append("&radius=" + ProximityRadius);
         googleURL.append("&type=" + nearbyPlace);
         googleURL.append("&sensor=true");
-        googleURL.append("&key=" + "AIzaSyAD75z50wI_xeQzXfHJlfuz2Duzunfe9N4");
+        googleURL.append("&key=" + "######");
         Log.d("GoogleMapsActivity", "url = " + googleURL.toString());
 
         return googleURL.toString();
